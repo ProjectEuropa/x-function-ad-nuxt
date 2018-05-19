@@ -1,59 +1,42 @@
 <template>
-  <section class="container">
     <div>
-      <logo/>
-      <h1 class="title">
-        x-function-ad
-      </h1>
-      <h2 class="subtitle">
-        My dazzling Nuxt.js project
-      </h2>
-      <div class="links">
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green">Documentation</a>
-        <a href="https://github.com/nuxt/nuxt.js" target="_blank" class="button--grey">GitHub</a>
-      </div>
+      <the-header/>
+      <gif/>
+      <systems/>
+      <main-image/>
+      <the-footer/>
     </div>
-  </section>
+  
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+import TheHeader from "@/components/TheHeader/TheHeader.vue";
+import Gif from "@/components/Parallax/Gif.vue";
+import MainImage from "@/components/Parallax/MainImage.vue";
+import Systems from "@/components/Systems/Systems.vue";
+import TheFooter from "@/components/TheFooter/TheFooter.vue";
 
 export default {
   components: {
-    Logo
+    TheHeader,
+    Gif,
+    MainImage,
+    Systems,
+    TheFooter
+  },
+  mounted() {
+    $(".parallax").parallax();
   }
-}
+};
 </script>
 
 <style>
-.container
-{
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+@font-face {
+  font-family: "ttf";
+  src: url(~/assets/font/Tr2n.ttf);
 }
-.title
-{
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-.subtitle
-{
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-.links
-{
-  padding-top: 15px;
+
+.ttf {
+  font-family: ttf, sans-serif;
 }
 </style>
