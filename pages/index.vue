@@ -26,6 +26,7 @@ export default {
   },
   mounted() {
     $(".parallax").parallax();
+    $(".button-collapse").sideNav();
   }
 };
 </script>

@@ -6,8 +6,8 @@
                   <a id="logo-container" href="/" class="brand-logo">x-function</a>
               </div>
               <div class="icons">
-                <a href="#"><i class="fa fa-twitter-square icon-space" id="twitter-icon"></i></a>
-                <a href="https://x-function-blog.netlify.com/"><i class="fa fa-rss-square icon-space" id="blog-icon"></i></a>
+                <a href="https://twitter.com/M2_m_" target="_blank"><i class="fa fa-twitter-square icon-space" id="twitter-icon"></i></a>
+                <a href="https://x-function-blog.netlify.com/" target="_blank"><i class="fa fa-rss-square icon-space" id="blog-icon"></i></a>
               </div>
           </div>
       </nav>
