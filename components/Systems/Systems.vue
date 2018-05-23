@@ -6,7 +6,7 @@
                     <div class="col center l12 video-top">
                         <div class="icon-block">
                             <div class="video-zone valign-wrapper">
-                                <video src="~/assets/video/x-function-system.mp4" autoplay></video>
+                                <video src="~/assets/video/x-function-system.mp4" autoplay="" muted="muted"></video>
                                 <div class="video-description col s12">
                                     <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
                                     <h5 class="center description-title">自由自在のカスタマイズ</h5>
@@ -21,11 +21,11 @@
                     <div class="col center l12">
                         <div class="icon-block">
                             <div class="video-zone valign-wrapper">
-                                <video src="~/assets/video/x-function-battle.mp4" autoplay></video>
+                                <video src="~/assets/video/x-function-battle.mp4" class="video-play" autoplay="" muted="muted"></video>
                                 <div class="video-description col s12">
                                     <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
                                     <h5 class="center description-title">高速バトル</h5>
-                                    <p class="light description-font">プログラミングによる操作による高速バトルを実現。<br>
+                                    <p class="light description-font">プログラミングによる自動操作で高速バトルを実現。<br>
                                     手動では再現できない圧倒的なスピード感によるバトルを体感せよ。
                                     </p>
                                 </div>
@@ -38,6 +38,10 @@
         </div>
     </div>
 </template>
+
+<script>
+</script>
+
 
 
 <style lang="scss" scoped>
