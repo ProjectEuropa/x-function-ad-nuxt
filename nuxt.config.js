@@ -29,7 +29,7 @@ module.exports = {
   ** Global CSS
   */
   css: [
-    'materialize-css/dist/css/materialize.css'
+    'materialize-css/dist/css/materialize.min.css'
   ],
 
   /*
