@@ -1,28 +1,30 @@
 <template>
     <div>
-      <the-header/>
+      <comming/>
+      <!-- <the-header/>
       <gif/>
       <systems/>
       <main-image/>
-      <the-footer/>
+      <the-footer/> -->
     </div>
   
 </template>
 
 <script>
-import TheHeader from "@/components/TheHeader/TheHeader.vue";
-import Gif from "@/components/Parallax/Gif.vue";
-import MainImage from "@/components/Parallax/MainImage.vue";
-import Systems from "@/components/Systems/Systems.vue";
-import TheFooter from "@/components/TheFooter/TheFooter.vue";
+import Comming from "@/components/Parallax/Comming.vue";
+// import TheHeader from "@/components/TheHeader/TheHeader.vue";
+// import Gif from "@/components/Parallax/Gif.vue";
+// import MainImage from "@/components/Parallax/MainImage.vue";
+// import Systems from "@/components/Systems/Systems.vue";
+// import TheFooter from "@/components/TheFooter/TheFooter.vue";
 
 export default {
   components: {
-    TheHeader,
-    Gif,
-    MainImage,
-    Systems,
-    TheFooter
+    Comming,
+    // Gif,
+    // MainImage,
+    // Systems,
+    // TheFooter
   },
   mounted() {
     $(".parallax").parallax();

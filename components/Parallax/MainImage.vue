@@ -7,6 +7,7 @@
                 </div>
             </div>
         </div>
+        
         <div class="parallax"><img src="~/assets/image/index.png" alt="Unsplashed background img 3" style="display: block; transform: translate3d(-50%, 782px, 0px);"></div>
     </div>
 </template>

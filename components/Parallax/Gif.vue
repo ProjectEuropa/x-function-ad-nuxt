@@ -10,9 +10,9 @@
                             </div>
                         </div>
                         <ul class="side-nav" id="mobile-demo">
-                            <li><a href="https://twitter.com/M2_m_" target="_blank">Twitter</a></li>
+                            <li><a href="https://twitter.com/Unana2048" target="_blank">Twitter</a></li>
                             <li><a class="modal-trigger" href="#modal-notify">News</a></li>
-                            <li><a href="https://x-function-blog.netlify.com/about/" target="_blank">Blog</a></li>
+                            <li><a href="hhttps://progressxfunction.wordpress.com/" target="_blank">Blog</a></li>
                             <li><a class="modal-trigger" href="#modal-notify">Links</a></li>
                         </ul>
                     </div>
@@ -35,7 +35,7 @@
         </div>
         <div id="modal-notify" class="modal">
             <div class="modal-content">
-                <p>LinkおよびNewsは準備中です。しばらくお待ちください。</p>
+                <p>LinksおよびNewsは準備中です。しばらくお待ちください。</p>
             </div>
         </div>
     </div>
